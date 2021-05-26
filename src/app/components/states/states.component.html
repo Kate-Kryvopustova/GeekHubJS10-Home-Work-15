@@ -1,0 +1,13 @@
+<app-header></app-header>
+
+<div class="wrapper">
+  <ng-container *ngIf="states$ |async as allStates">
+    <cdk-virtual-scroll-viewport class="list-container lg" [itemSize]="52.5" >
+      <mat-card *cdkVirtualFor="let state of allStates" class="list-group-item">
+        <mat-card-title class="state">{{ state.name }}</mat-card-title>
+        <mat-card-subtitle class="capital">{{ state.capital }}</mat-card-subtitle>
+      </mat-card>
+    </cdk-virtual-scroll-viewport>
+  </ng-container>
+</div>
+

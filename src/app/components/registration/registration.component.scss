@@ -1,0 +1,21 @@
+.wrapped {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.fromRegistration {
+  margin: 20px;
+  width: 450px;
+  display: flex;
+  flex-direction: column;
+}
+
+.hint {
+  color: rgba(0,0,0,.6);
+  font-size: 13px
+}
+
+.password {
+  margin-bottom: -17px;
+}

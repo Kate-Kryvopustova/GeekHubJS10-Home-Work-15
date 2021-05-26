@@ -1,0 +1,23 @@
+.wrapper {
+  margin: 20px;
+  display: flex;
+  justify-content: center;
+}
+
+.from {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 500px;
+}
+
+.button {
+  margin: 10px;
+}
+
+
+.hint {
+  color: rgba(0,0,0,.54);
+  font-size: 13px
+}
+

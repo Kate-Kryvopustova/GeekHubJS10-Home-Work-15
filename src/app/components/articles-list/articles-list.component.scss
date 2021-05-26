@@ -1,0 +1,40 @@
+.wrapped {
+  display: flex;
+  justify-content: center;
+}
+
+.container {
+  margin: 20px;
+  width: 600px;
+  -webkit-transition: all 0.3s ease;;
+  -moz-transition: all 0.3s ease;;
+  -o-transition: all 0.3s ease;;
+  transition: all 0.3s ease;
+}
+
+.container:hover {
+  -webkit-transform: scale(1.2);
+  -ms-transform: scale(1.2);
+  transform: scale(1.2);
+}
+
+
+.container__info {
+  display: flex;
+  justify-content: center;
+}
+
+.title {
+  display: flex;
+  justify-content: center;
+}
+
+.pagination {
+  display: flex;
+  justify-content: center;
+}
+
+.pagination ::ng-deep .ngx-pagination .current {
+  background: #644eba;
+  border-radius: 5px;
+}

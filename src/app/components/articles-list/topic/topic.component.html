@@ -1,0 +1,27 @@
+<div class="wrapped">
+  <mat-card class="container">
+
+    <mat-card-header class="container__header">
+
+      <mat-card-title class="header__title">
+        {{topic.title}}
+      </mat-card-title>
+
+      <mat-card-subtitle class="header__subtitle">
+        {{topic.shortDescriptions}}
+      </mat-card-subtitle>
+
+    </mat-card-header>
+
+    <img class="container__image" mat-card-image [src]="topic.src" alt="Photo of a white bear">
+
+    <mat-card-content class="container__content">
+        {{topic.descriptions}}
+    </mat-card-content>
+
+    <mat-card-actions class="container__actions">
+      <button mat-button (click)="back()">BACK</button>
+    </mat-card-actions>
+
+  </mat-card>
+</div>

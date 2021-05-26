@@ -1,0 +1,19 @@
+.table {
+  width: 600px;
+  margin: 0 auto;
+}
+
+table {
+  width: 100%;
+}
+
+.mat-form-field {
+  display: flex;
+  font-size: 14px;
+  width: 600px;
+  float: right;
+}
+
+td, th {
+  width: 25%;
+}

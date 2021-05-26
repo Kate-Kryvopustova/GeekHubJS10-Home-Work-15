@@ -1,0 +1,28 @@
+.container {
+  margin: 20px;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.item {
+  text-decoration: none;
+  color: #644eba;
+  font-family: cursive;
+  font-size: xx-large;
+}
+
+.item:hover {
+	color: darkblue;
+}
+
+
+@media (max-width: 550px) {
+  .container {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .item {
+    margin: 5px;
+  }
+}
